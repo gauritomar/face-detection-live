@@ -1,43 +1,51 @@
-# Face Detection Live
+# Face Detection Live using React.js
 
-This project is an image based face detection app that uses computer vision to detect faces in uploaded images. The app is built using react and tensorflow.
+This project is a web application that allows users to upload an image and identify any faces in the image using the Clarifai API. The application is built using React.js and uses the following technologies:
 
-Live Link - https://identify-face-atanu.netlify.app/
-
+- [Clarifai API](https://www.clarifai.com/) for face detection
+- [React Dropzone](https://react-dropzone.js.org/) for file uploads
+- [React Bootstrap](https://react-bootstrap.github.io/) for styling and layout
 
 ## Getting Started
 
-To run the application, run the following command:
-```
-    npm start
-```
-The application will be available at http://localhost:3000 in your web browser.
+To get started with this project, follow these steps:
 
-### Prerequisites
+1. Clone this repository to your local machine using `git clone https://github.com/gauritomar/face-detection-live`
 
-Dependencies
-This project uses the following dependencies:
-```
-@tensorflow/tfjs: "^4.4.0"
-react: "^17.0.2"
-react-dom: "^17.0.2"
-react-scripts: "4.0.3"
-react-tfjs: "^1.3.2"
-```
-And the following dev dependencies:
-```
-@testing-library/jest-dom: "^5.14.1"
-@testing-library/react: "^11.2.7"
-@testing-library/user-event: "^12.8.3"
-eslint: "^7.29.0"
-eslint-config-react-app: "^6.0.0"
-eslint-plugin-flowtype: "^5.8.0"
-eslint-plugin-import: "^2.23.4"
-eslint-plugin-jsx-a11y: "^6.4.1"
-eslint-plugin-react: "^7.24.0"
-eslint-plugin-react-hooks: "^4.2.0"
-web-vitals: "^1.1.2"
-```
+2. Install the dependencies using `npm install`
+
+3. Start the development server using `npm start`
+
+4. Navigate to `http://localhost:3000` in your web browser to view the application.
+
+## Usage
+
+To use the application, follow these steps:
+
+1. Click the "Choose File" button to select an image to upload.
+
+2. Once you have selected an image, click the "Upload" button to upload the image to the server.
+
+3. The application will use the Clarifai API to identify any faces in the image and display them on the screen.
+
+4. You can upload multiple images and view the identified faces for each image.
+
+## Contributing
+
+If you would like to contribute to this project, feel free to open a pull request or an issue on the project repository. All contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+This project was built using the following resources:
+
+- [Clarifai API documentation](https://www.clarifai.com/docs/)
+- [React Dropzone documentation](https://react-dropzone.js.org/)
+- [React Bootstrap documentation](https://react-bootstrap.github.io/)
+
 
 ### Project Preview
 
